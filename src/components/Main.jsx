@@ -1,5 +1,5 @@
 import React from "react";
-import { notify, gprofile, activity, runper, np } from "../assets";
+import { notify, activity, runper, np } from "../assets";
 import MonthlyMentor from "./MonthlyMentor";
 import { mentors, upcoming } from "../constant";
 import Upcoming from "./Upcoming";
@@ -16,7 +16,7 @@ const Main = () => {
         </div>
         <div className="flex gap-3 mt-2 ">
           <img src={notify} alt="notify" />
-          <img src={gprofile} className="w-[52px] h-[52px]" alt="girl" />
+          <img src="" className="w-[52px] h-[52px]" alt="girl" />
         </div>
       </div>
       <div className="flex ">
