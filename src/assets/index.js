@@ -6,7 +6,7 @@ import message from "./message.png";
 import logo from "./logo.png";
 import question from "./Question.png";
 import notify from "./notif.png";
-import gprofile from "./1profil.png";
+import gprofile from "./profil.png";
 import activity from "./Activity.png";
 import runper from "./Cases.png";
 import np from "./prev-next.png";
