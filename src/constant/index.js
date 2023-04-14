@@ -73,4 +73,50 @@ const upcoming = [
   },
 ];
 
-export { menuItem, mentors , upcoming };
+const date = [
+  {
+    day: "S",
+    date: 10,
+  },
+  {
+    day: "M",
+    date: 11,
+  },
+  {
+    day: "T",
+    date: 12,
+  },
+  {
+    day: "W",
+    date: 13,
+  },
+  {
+    day: "T",
+    date: 14,
+  },
+  {
+    day: "F",
+    date: 15,
+  },
+  {
+    day: "S",
+    date: 16,
+  },
+];
+
+const detailTask = [
+  {
+    no: 1,
+    text: "Understanding the tools in figma",
+  },
+  {
+    no: 2,
+    text: "Understanding the basic of making designs",
+  },
+  {
+    no: 1,
+    text: "Design a mobile application with Figma",
+  },
+];
+
+export { menuItem, mentors, upcoming, date, detailTask };

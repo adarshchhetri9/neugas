@@ -20,6 +20,11 @@ import mobileC from "./cearte_mobile.png";
 import webC from "./create.png";
 import seventyfive from "./seventyfive.png";
 import eightyfive from "./eightyfive.png";
+import aleft from "./arrow-left.png";
+import aright from "./arrow-right.png";
+import lastpic from "./Image.png";
+import progress from "./Progress.png";
+import options from "./more.png";
 
 export {
   overview,
@@ -44,4 +49,9 @@ export {
   webC,
   seventyfive,
   eightyfive,
+  aleft,
+  aright,
+  lastpic,
+  progress,
+  options,
 };

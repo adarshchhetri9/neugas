@@ -4,7 +4,7 @@ import { mTask, star } from "../assets";
 
 const MonthlyMentor = ({ pic, name, task, rating, Do, Follow }) => {
   return (
-    <div className="w-[328px] h-[140px] bg-white flex flex-col p-5 gap-4">
+    <div className="w-[358px] h-[140px] bg-white flex flex-col p-5 gap-4 rounded-[10px]">
       <div className="flex gap-4 items-center justify-between">
         <div className="flex gap-3">
           <img src={pic} alt="profile" />

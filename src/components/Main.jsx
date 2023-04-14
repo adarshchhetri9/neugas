@@ -6,7 +6,7 @@ import Upcoming from "./Upcoming";
 
 const Main = () => {
   return (
-    <div className="w-[752px] p-7">
+    <div className="w-[800px] py-[18px] px-[25px]">
       <div className="flex justify-between mb-[40px]  ">
         <div className="mt-2">
           <h1 className="text-[24px] font-semibold">Hi, Skylar Dias</h1>
@@ -48,7 +48,7 @@ const Main = () => {
         <h1 className="text-[24px] font-semibold">Upcoming Task</h1>
         <img src={np} alt="next-prev" className="w-[58px] h-[24px]" />
       </div>
-      <div className="flex">
+      <div className="flex  gap-4">
         {upcoming.map((item, index) => (
           <Upcoming {...item} />
         ))}
