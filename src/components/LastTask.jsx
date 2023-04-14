@@ -35,7 +35,7 @@ const LastTask = () => {
         </div>
         <div className="my-7">
           {detailTask.map((item, index) => (
-            <DetailTask {...item} />
+            <DetailTask {...item} key={item.id} />
           ))}
         </div>
       </div>

@@ -26,7 +26,7 @@ const Sidebar = () => {
           </div>
           <div>
             {menuItem.map((item, index) => (
-              <Nav {...item} />
+              <Nav {...item} key={item.id} />
             ))}
           </div>
           <div></div>

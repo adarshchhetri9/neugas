@@ -1,5 +1,5 @@
 import React from "react";
-import { notify, activity, runper, np } from "../assets";
+import { notify, activity, runper, np, gprofile } from "../assets";
 import MonthlyMentor from "./MonthlyMentor";
 import { mentors, upcoming } from "../constant";
 import Upcoming from "./Upcoming";
@@ -16,7 +16,7 @@ const Main = () => {
         </div>
         <div className="flex gap-3 mt-2 ">
           <img src={notify} alt="notify" />
-          <img src="" className="w-[52px] h-[52px]" alt="girl" />
+          <img src={gprofile} className="w-[52px] h-[52px]" alt="girl" />
         </div>
       </div>
       <div className="flex ">
@@ -40,7 +40,7 @@ const Main = () => {
       <div>
         <div className="flex gap-4 mt-3">
           {mentors.map((item, index) => (
-            <MonthlyMentor {...item} />
+            <MonthlyMentor {...item} key={item.id} />
           ))}
         </div>
       </div>
@@ -50,7 +50,7 @@ const Main = () => {
       </div>
       <div className="flex  gap-4">
         {upcoming.map((item, index) => (
-          <Upcoming {...item} />
+          <Upcoming {...item} key={item.id} />
         ))}
       </div>
     </div>

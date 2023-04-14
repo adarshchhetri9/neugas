@@ -13,6 +13,7 @@ const Calender = () => {
       <div className="flex justify-center gap-5">
         {date.map((item, index) => (
           <div
+            key={item.id}
             className={`${
               index === date.length - 3
                 ? "bg-[#141522] p-[5.5px] text-white rounded-full  "

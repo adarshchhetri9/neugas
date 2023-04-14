@@ -14,22 +14,27 @@ import {
 
 const menuItem = [
   {
+    id:1,
     name: "Overview",
     icon: overview,
   },
   {
+    id:2,
     name: "Task",
     icon: task,
   },
   {
+    id:3,
     name: "Mentor",
     icon: mentor,
   },
   {
+    id:4,
     name: "Message",
     icon: message,
   },
   {
+    id:5,
     name: "Settings",
     icon: setting,
   },
@@ -37,6 +42,7 @@ const menuItem = [
 
 const mentors = [
   {
+    id:1,
     pic: george,
     name: "Curious George",
     Do: "UI/UX Design",
@@ -45,6 +51,7 @@ const mentors = [
     Follow: "+ Follow",
   },
   {
+    id:2,
     pic: lincoln,
     name: "Abraham Linclon",
     Do: "3D Design",
@@ -56,6 +63,7 @@ const mentors = [
 
 const upcoming = [
   {
+    id:1,
     img: mobileC,
     name: "Creating Mobile App Design",
     Do: "UI UX Design",
@@ -64,6 +72,7 @@ const upcoming = [
     pImg: seventyfive,
   },
   {
+    id:2,
     img: webC,
     name: "Creating Perfect Website",
     Do: "Web Developer",
@@ -75,30 +84,37 @@ const upcoming = [
 
 const date = [
   {
+    id:1,
     day: "S",
     date: 10,
   },
   {
+    id:2,
     day: "M",
     date: 11,
   },
   {
+    id:3,
     day: "T",
     date: 12,
   },
   {
+    id:4,
     day: "W",
     date: 13,
   },
   {
+    id:5,
     day: "T",
     date: 14,
   },
   {
+    id:6,
     day: "F",
     date: 15,
   },
   {
+    id:7,
     day: "S",
     date: 16,
   },
@@ -106,14 +122,17 @@ const date = [
 
 const detailTask = [
   {
+    id:1,
     no: 1,
     text: "Understanding the tools in figma",
   },
   {
+    id:2,
     no: 2,
     text: "Understanding the basic of making designs",
   },
   {
+    id:3,
     no: 1,
     text: "Design a mobile application with Figma",
   },
