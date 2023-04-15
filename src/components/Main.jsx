@@ -6,7 +6,7 @@ import Upcoming from "./Upcoming";
 
 const Main = () => {
   return (
-    <div className="w-[800px] py-[18px] px-[25px]">
+    <div className="w-[50vw] py-[18px] px-[25px]">
       <div className="flex justify-between mb-[40px]  ">
         <div className="mt-2">
           <h1 className="text-[24px] font-semibold">Hi, Skylar Dias</h1>

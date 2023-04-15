@@ -4,7 +4,7 @@ import { options } from "../assets";
 
 const Right = () => {
   return (
-    <div className="w-[436px] bg-[#F5F5F7]">
+    <div className="w-[30vw] bg-[#F5F5F7]">
       <div className="w-[372px] h-[170px] bg-white m-8 rounded-lg ">
         <Calender />
       </div>

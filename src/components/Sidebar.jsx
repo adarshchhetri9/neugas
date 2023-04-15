@@ -18,7 +18,7 @@ const Nav = ({ icon, name }) => {
 const Sidebar = () => {
   return (
     <>
-      <div className="h-[1024px] flex w-[292px] flex-col justify-between py-5 px-5 bg-white ">
+      <div className="h-[1024px] flex w-[20vw] flex-col justify-between py-5 px-5 bg-white ">
         <div className="container flex flex-col  h-[50vh] ">
           <div className="top_section flex items-center gap-[9px] pl-[4px] mb-[30px]">
             <img src={logo} alt="" className="h-[40px] w-[40px] " />
