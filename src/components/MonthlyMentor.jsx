@@ -1,5 +1,3 @@
-import React from "react";
-import { mentors } from "../constant";
 import { mTask, star } from "../assets";
 
 const MonthlyMentor = ({ pic, name, task, rating, Do, Follow }) => {

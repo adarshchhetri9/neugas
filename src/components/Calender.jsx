@@ -1,4 +1,3 @@
-import React from "react";
 import { date } from "../constant";
 import { aleft, aright } from "../assets";
 

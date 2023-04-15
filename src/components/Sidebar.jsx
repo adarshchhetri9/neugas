@@ -1,4 +1,3 @@
-import React from "react";
 import { menuItem } from "../constant";
 import { logo, question } from "../assets";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 const DetailTask = ({ no, text }) => {
   return (
     <div className="flex gap-3 items-center   ">

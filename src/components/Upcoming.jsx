@@ -1,4 +1,3 @@
-import React from "react";
 import { students, time } from "../assets";
 
 const Upcoming = ({ img, name, Do, percent, days, pImg }) => {

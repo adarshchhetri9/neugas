@@ -1,4 +1,3 @@
-import React from "react";
 import { notify, activity, runper, np, gprofile } from "../assets";
 import MonthlyMentor from "./MonthlyMentor";
 import { mentors, upcoming } from "../constant";

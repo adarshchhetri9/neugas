@@ -1,4 +1,3 @@
-import React from "react";
 import { lastpic, progress, students, time } from "../assets";
 import { detailTask } from "../constant";
 import DetailTask from "./DetailTask";
